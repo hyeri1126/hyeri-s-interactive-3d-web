@@ -1,0 +1,55 @@
+@font-face {
+    font-family: glossy;
+    src: url("../fonts/glossy.otf");
+}
+@font-face {
+    font-family: bogart;
+    src: url("../fonts/bogart.ttf");
+}
+@font-face {
+    font-family: chelsea;
+    src: url("../fonts/chelsea.ttf");
+}
+@font-face {
+    font-family: chelsea2;
+    src: url("../fonts/chelsea2.ttf");
+}
+@font-face {
+    font-family: evafiya;
+    src: url("../fonts/evafiya.ttf");
+}
+@font-face {
+    font-family: futural-bold;
+    src: url("/fonts/FuturaforBlackyak-Regular.ttf");
+}
+@font-face {
+    font-family: futural-regular;
+    src: url("/fonts/FuturaforBlackyak-Bold.ttf");
+}
+@font-face {
+    font-family: amoitar;
+    src: url("/fonts/Amoitar\ Regular.ttf");
+}
+@font-face {
+    font-family: boqart-semibold;
+    src: url("/fonts/Bogart-Semibold-Italic-trial.ttf");
+}
+@font-face {
+    font-family: taeback;
+    src: url("/fonts/TAEBAEK\ milkyway.ttf");
+}
+@font-face {
+    font-family: anton;
+    src: url("/fonts/Anton-Regular.ttf");
+}
+/* {
+    font-family: glossy;
+    font-family: bogart;
+    font-family: chelsea;
+    font-family: evafiya;
+    font-family: futural-bold;
+    font-family: amoitar;
+    font-family: boqart-semibold;
+     font-family: anton;
+
+} */

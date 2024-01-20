@@ -1,0 +1,274 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.7/dist/web/static/pretendard.css");
+@font-face {
+    font-family: anton;
+    src: url("/fonts/Anton-Regular.ttf");
+}
+@font-face {
+    font-family: glossy;
+    src: url("../fonts/glossy.otf");
+}
+
+html,
+body {
+	margin: 0;
+	overflow: hidden;
+	background-color: black;
+	color: black;
+    font-family: "Pretendard Variable", Pretendard, -apple-system,
+		BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI",
+		"Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji",
+		"Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+canvas {
+    display: block;
+}
+
+.navigator {
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    height: 55px;
+    background-color: #161616;
+    border-radius: 10px;
+    overflow: hidden;
+
+    position: fixed;
+    bottom: 50px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.35);
+}
+.navigator > * {
+    flex: 1;
+}
+.navigator > .item:hover,
+.item.active {
+    color: #161616;
+    background: #d9cce8;
+}
+.container_right {
+    display: flex;
+    width: 200px;
+    flex: none;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.item {
+    color: #d9cce8;
+    background: #161616;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.item svg {
+    width: 32px;
+    height: 32px;
+}
+.arrow {
+    flex: none;
+    color: #161616;
+    background: #d9cce8;
+    width: 80px;
+}
+.arrow.disabled {
+    background: #161616 !important;
+    color: #d9cce8 !important;
+    cursor: auto;
+}
+.arrow.disabled svg {
+    opacity: 0.4;
+}
+.divider {
+    flex: none;
+    width: 1px;
+    height: 32px;
+    background: #d9cce8;
+    align-self: center;
+}
+.page_tooltip {
+    opacity: 0;
+    font-size: 13px;
+    display: flex;
+    gap: 12px;
+    height: auto;
+    padding: 18px 26px;
+    background-color: #d9cce8;
+    align-items: center;
+    border-radius: 10px;
+
+    position: fixed;
+    bottom: 150px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+
+    transition: 0.3s;
+}
+.page_tooltip.delayed-appear {
+    transition: opacity .1s ease 1.5s;
+    opacity: 1;
+}
+.page_tooltip.open {
+    opacity: 1;
+}
+.page_tooltip.hide {
+    opacity: 0;
+}
+
+.tooltip_cancel{
+    cursor: pointer;
+    font-size: 50px;
+}
+.page_tooltip p {
+    margin: 0;
+    height: auto;
+    line-height: 25px;
+    font-size: 20px;
+}
+
+
+/* sound btn */
+.btn_sound .sound {
+	display: none;
+}
+.btn_sound.active .mute {
+	display: none;
+}
+.btn_sound.active .sound {
+	display: block;
+}
+
+/* title */
+.page_title {
+	color: #d9cce8;
+	position: fixed;
+	left: 60px;
+	top: 60px;
+	margin: 0;
+	line-height: 100%;
+	font-size: 42px;
+	pointer-events: none;
+    user-select: none;
+    opacity: 0;
+    transition: 0.3s;
+    /* font-family: glossy; */
+    /* font-family: bogart; */
+    /* font-family: chelsea; */
+    /* font-family: evafiya; */
+    /* font-family: boqart-semibold; */
+    font-family: anton;
+
+
+}
+.page_title.delayed-appear {
+    transition: opacity .1s ease 1.5s;
+    opacity: 1;
+}
+
+/* loading */
+.dimmer {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+
+	display: flex;
+    flex-direction: column;
+    gap: 30px;
+	justify-content: center;
+	align-items: center;
+
+	transition: 0.3s;
+}
+
+.dimmer.end {
+	opacity: 0;
+	pointer-events: none;
+}
+.dimmer .intro{
+    font-size: 25px;
+    padding: 10px;
+    font-family: glossy;
+    color: white;
+    letter-spacing: 2px;
+}
+.loader {
+	width: 350px;
+	height: 10px;
+	border: 2px solid #d9cce8;
+    border-radius: 2px;
+}
+
+.progress {
+	width: 10%;
+	height: 100%;
+	background-color: #d9cce8;
+	transition: 0.3s;
+}
+
+/* scene-3 gui */
+.dg .cr.color {
+    height: 50px;
+}
+.dg .property-name{
+    font-size: 20px;
+}
+
+/* 반응형 웹 */
+@media screen and (max-width: 980px) {
+	.page_title {
+		left: 0;
+		width: 100%;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.navigator {
+		width: calc(100% - 40px);
+		height: 50px;
+		border-radius: 8px;
+	}
+	.item svg {
+		width: 24px;
+		height: 24px;
+	}
+	.arrow {
+		width: 40px;
+	}
+	.container_right {
+		flex: 2;
+		gap: 0px;
+	}
+	.container_right > .item {
+		flex: 1;
+	}
+	.divider {
+		display: none;
+	}
+    .page_tooltip{
+        bottom: 130px;
+        font-size: 5px;
+        /* text-align: center; */
+        padding: 10px;
+        width: 330px;
+        left: 50%;
+        transform: translate(-50%, 0%);
+        gap: 5px;
+        justify-content: center;
+        align-items: center;
+    }
+    .page_tooltip svg{
+        display: none;
+      
+    }
+}
