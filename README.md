@@ -15,7 +15,7 @@ PerspectiveCamera와 OrbitControls를 활용한 다양한 시점 제어
 ### 3. 3D 인터랙티브 파티클 배경 효과
 Three.js의 Particle System 적용, 사용자 마우스 움직임에 반응
 
-### 4. 반응형 
+### 4. 반응형 디자인 적용용
 
 ## 🛠️ 기술 스택
 **C4D (Cinema 4D)**, 
