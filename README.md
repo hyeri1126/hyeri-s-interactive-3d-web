@@ -22,7 +22,6 @@ Three.js의 Particle System 적용, 사용자 마우스 움직임에 반응
 ### 4. 반응형 디자인 적용
 <br>
 
-
 ## 🛠️ 기술 스택
 **C4D (Cinema 4D)**, 
 **Three.js**,  **GSAP (GreenSock Animation Platform)**, **JavaScript (ES6+)**, **HTML5 & CSS3**,
