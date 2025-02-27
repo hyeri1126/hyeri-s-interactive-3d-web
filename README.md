@@ -6,14 +6,14 @@
 
 ## ✨ 주요 기능
 ### 1. 3D 오브젝트 색상 커스터마이징 시스템
-- 사용자가 3D 오브젝트를 선택하고 원하는 색상으로 변경
-- Raycaster를 활용한 오브젝트 선택, Color Picker UI와 연동하여 색상 변경 가능 적용
+사용자가 3D 오브젝트를 선택하고 원하는 색상으로 변경 <br>
+Raycaster를 활용한 오브젝트 선택, Color Picker UI와 연동하여 색상 변경 기능 적용
 
 ### 2. 3D 공간 탐색 기능
-- PerspectiveCamera와 OrbitControls를 활용한 다양한 시점 제어
+PerspectiveCamera와 OrbitControls를 활용한 다양한 시점 제어
 
 ### 3. 3D 인터랙티브 파티클 배경 효과
-- Three.js의 Particle System 적용, 사용자 마우스 움직임에 반응
+Three.js의 Particle System 적용, 사용자 마우스 움직임에 반응
 
 ### 4. 반응형 
 
