@@ -29,8 +29,7 @@ Three.js의 Particle System 적용, 사용자 마우스 움직임에 반응
 <br>
 
 
-## 🔗 링크
-![프로젝트 보러가기](https://hyeri1126.github.io/hyeri-s-interactive-3d-web/)
+## 🔗 ![프로젝트 보러가기](https://hyeri1126.github.io/hyeri-s-interactive-3d-web/)
 <br>
 
 
