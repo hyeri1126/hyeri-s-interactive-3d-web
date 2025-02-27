@@ -4,8 +4,10 @@
 평소 2D 웹의 한계를 넘은 3D 요소를 활용한 인터랙티브 웹에 관심이 있어, 콜로소의 초이인 강의를 수강하며 이 프로젝트를 진행했습니다.
 
 ## 링크
-- ![프로젝트 보러가기](https://hyeri1126.github.io/hyeri-s-interactive-3d-web/)
-- [![시연영상 보러가기](https://img.youtube.com/vi/BDIf3z7FV9k/0.jpg)](https://www.youtube.com/watch?v=BDIf3z7FV9k)
+![프로젝트 보러가기](https://hyeri1126.github.io/hyeri-s-interactive-3d-web/)
+
+## 시연영상
+[![시연영상 보러가기](https://img.youtube.com/vi/BDIf3z7FV9k/0.jpg)](https://www.youtube.com/watch?v=BDIf3z7FV9k)
 
 ## ✨ 주요 기능
 ### 1. 3D 오브젝트 색상 커스터마이징 시스템
