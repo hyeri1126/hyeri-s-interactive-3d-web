@@ -2,9 +2,11 @@
 [![시연영상 보러가기](https://img.youtube.com/vi/BDIf3z7FV9k/0.jpg)](https://www.youtube.com/watch?v=BDIf3z7FV9k)
 <br>
 
+
 ## 📝 프로젝트 개요 및 배경
 평소 2D 웹의 한계를 넘은 3D 요소를 활용한 인터랙티브 웹에 관심이 있어, 콜로소의 초이인 강의를 수강하며 이 프로젝트를 진행했습니다.
 <br>
+
 
 ## ✨ 주요 기능
 ### 1. 3D 오브젝트 색상 커스터마이징 시스템
@@ -20,15 +22,18 @@ Three.js의 Particle System 적용, 사용자 마우스 움직임에 반응
 ### 4. 반응형 디자인 적용
 <br>
 
+
 ## 🛠️ 기술 스택
 **C4D (Cinema 4D)**, 
 **Three.js**,  **GSAP (GreenSock Animation Platform)**, **JavaScript (ES6+)**, **HTML5 & CSS3**,
 **Webpack**, **Git/GitHub**
 <br>
 
+
 ## 🔗 링크
 ![프로젝트 보러가기](https://hyeri1126.github.io/hyeri-s-interactive-3d-web/)
 <br>
+
 
 ## 3D 인터랙티브 웹 제작 회고
 
@@ -37,6 +42,7 @@ Three.js의 Particle System 적용, 사용자 마우스 움직임에 반응
 특히, 생애 처음으로 c4D를 접하면서 3D 모션 그래픽을 제작하는 경험을 통해 디자이너의 관점을 이해하는데 도움이 되었고, Three.js를 통해 이를 웹에 구현하는 과정은 평소 어려웠떤 Three.js 라이브러리를 이해하는데 도움이 되었습니다. 
 이번 프로젝트는 3D 웹 개발의 시작점이라고 생각하며 앞으로도 꾸준히 이 기술을 공부하여 다양한 프로젝트에 이를 적용시키고자 합니다. 
 <br>
+
 
 
 ## 📋 구현 상세
