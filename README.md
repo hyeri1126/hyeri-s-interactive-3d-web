@@ -1,5 +1,6 @@
 # 3D Interactive Web Project
 [![시연영상 보러가기](https://img.youtube.com/vi/BDIf3z7FV9k/0.jpg)](https://www.youtube.com/watch?v=BDIf3z7FV9k)
+클릭하시면 유튜브를 통해 시연영상을 확인할 수 있습니다.
 <br>
 
 
